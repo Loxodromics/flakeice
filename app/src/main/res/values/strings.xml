@@ -1,4 +1,19 @@
 <resources>
     <string name="app_name">Flakeice</string>
     <string name="action_settings">Settings</string>
+    <!-- Bluetooth Management -->
+
+    <string name="bluetooth_unsupported">This device doesn\'t support Bluetooth Low Energy</string>
+    <string name="bluetooth_notauthorized">This app is not authorized to use the Bluetooth Low Energy</string>
+    <string name="bluetooth_poweredoff">Bluetooth is currently powered off</string>
+
+    <string name="bluetooth_locationpermission_disabled_text">Location Services should be enabled to scan bluetooth peripherals.\nPlease, go to settings and enable it to start scanning peripherals</string>
+    <string name="bluetooth_locationpermission_title">This app needs location access</string>
+    <string name="bluetooth_locationpermission_text">Please grant location access so this app can scan for Bluetooth peripherals</string>
+    <string name="bluetooth_locationpermission_notavailable_title">Bluetooth Scanning not available</string>
+    <string name="bluetooth_locationpermission_notavailable_text">Since location access has not been granted, the app will not be able to scan for Bluetooth peripherals</string>
+    <string name="bluetooth_scanner_errorregisteringapp">App cannot be registered for bluetooth scanning.\nPlease reset bluetooth and try again.</string>
+    <string name="bluetooth_connecting_error">Error connecting to peripheral</string>
+    <string name="bluetooth_advertising_start_error">Error starting advertising</string>
+
 </resources>
